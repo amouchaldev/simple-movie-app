@@ -1,0 +1,83 @@
+body {
+    /* background-color: aliceblue; */
+    background-image: url('../img/dottedbg.png');
+    background-size: cover;
+}
+
+/* navbar */
+#my-favorite {
+    width: 23px;
+}
+
+
+#my-favorite-num {
+    font-size: 13px;
+}
+
+
+.card {
+    border-radius: 5px;
+    /* width: 186px; */
+    height: 273px;
+}
+
+/* movie container */
+
+.add-to-favorite > img {
+    width: 18px;
+    height: 16px;
+}
+.more {
+    /* position: absolute; */
+    /* bottom: -50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, 0); */
+    transition: all .2s ease-in;
+    height: 0;
+    opacity: 0;
+}
+.more button {
+    border-radius: 5px;
+    border: none;
+    font-size: 13px;
+
+}
+
+.card:hover .more  {
+    /* position: relative;  */
+    /* bottom: 0%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, 0); */
+    height: auto;
+    opacity: 1;
+}
+
+
+
+.modal-content {
+    background-color: aliceblue;
+    background-image: url('../img/dottedbg.png');
+    background-size: cover;
+}
+
+@media (min-width: 576px) { 
+.modal-dialog {
+    max-width: 1084px;
+}
+}
+
+.text-dark {
+    color: #212832!important;
+}
+
+/* footer */
+footer {
+    background-image: url('../img/footer-bg.png');
+    background-size: cover;
+    height: 100px;
+}
+
+#movies {
+    height: 349px;
+
+}
